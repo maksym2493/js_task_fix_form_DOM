@@ -12,5 +12,5 @@ inputs.forEach((input) => {
   label.textContent = inputName;
   input.placeholder = inputName[0].toUpperCase() + inputName.slice(1);
 
-  input.before(label);
+  input.after(label);
 });
